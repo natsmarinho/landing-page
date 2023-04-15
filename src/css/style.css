@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --branco: #ffffff;
+    --laranja: #E28625;
+    --verde: #006971;
+    --verde-escuro: #004140;
+    --fonte-titulo: 'Big Shoulders Display', cursive;
+    --fonte-texto: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    background: var(--laranja);
+    padding: 4em 3em 5em 3em;
+    border-radius: 8px 8px 0 0;
+    margin-inline: 1.5em;
+}
+
+.container:nth-child(2){
+    background: var(--verde);
+    position: relative;
+    top: -.5em;
+}
+
+.container:nth-child(3){
+    background: var(--verde-escuro);
+    position: relative;
+    top: -2em;
+}
+
+.cabecalho__titulo{
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+    margin-block: 1em;
+    text-transform: uppercase;
+}
+
+.container__paragrafo{
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    margin-right: 3em;
+    margin-bottom: 1.5em;
+}
+
+button{
+    color: var(--laranja);
+    background: var(--branco);
+    border: none;
+    border-radius: 25px;
+    padding: .9em 1.5em;
+}
+
+.second-button{
+    color: var(--verde);
+}
+
+.third-button{
+    color: var(--verde-escuro);
+}
