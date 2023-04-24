@@ -111,7 +111,11 @@ button{
         right: .5em;
     }
 
-    
+    button:hover{
+        background: transparent;
+        color: var(--branco);
+        border: 2px solid var(--branco);
+    }
 }
 
 @media screen and (min-width: 1281px){
